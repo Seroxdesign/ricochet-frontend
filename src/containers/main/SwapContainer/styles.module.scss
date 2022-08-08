@@ -13,6 +13,27 @@
   
 }
 
+@import 'assets/styles/_mixins';
+
+.swap-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border-color: white;
+  border-width: 2px;
+}
+
+.row {
+  display: flex;
+  width: 70%;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.individual {
+  padding: 5px;
+}
 
 
 
