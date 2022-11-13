@@ -60,7 +60,7 @@ export default function SwapContainer() {
 		},
 		{
 			name: 'RIC',
-			symbol: 'ric',
+			symbol: 'richochet',
 			address: RICAddress,
 			underlyingToken: RICAddress,
 		},
@@ -89,7 +89,7 @@ export default function SwapContainer() {
 	React.useEffect(() => {
 		axios.get(coingeckoUrl).then((response) => {
 			setGeckoPriceList(response.data);
-			console.log(response);
+			console.log(response, 'pl');
 		});
 	}, []);
 
