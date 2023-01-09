@@ -16,7 +16,7 @@
     "prettier:check": "prettier --config .prettierrc --check \"src/**/*.{ts,css,html}\""
   },
   "engines": {
-    "node": "16"
+    "node": "^16.10.0"
   },
   "eslintConfig": {
     "extends": "react-app"
